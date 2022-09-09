@@ -1,0 +1,52 @@
+
+/* # Додаткові матеріали :книга::
+# Специфікація - https://developer.mozilla.org/en-US/docs/Web/CSS
+# Пару слів про CSS змінних - https://developer.mozilla.org/ru/docs/Web/CSS/Using_CSS_custom_properties
+# Слова, які часто використовуються в CSS-класах - https://github.com/yoksel/common-words
+# Cascading Style Sheets | MDN Cascading Style Sheets (CSS) є stylesheet language використовуваний для написання тексту документа в HTML або XML (включаючи XML dialects так як SVG, MathML або XHTML).
+# CSS описані як елементи повинні бути зображені на екрані, на папері, в режимі, або на іншому медіа. https://developer.mozilla.org/en-US/docs/Web/CSS http://developer.mozilla.org
+# Використання змінних CSS - CSS | MDN CSS змінні (користувацькі CSS-властивості) - це сутності, що визначаються автором CSS, що зберігають конкретні значення, які можна повторно використовувати в документі. Вони встановлюються за допомогою custom property нотації (наприклад. -main-color: black;) і доступні через функцію var() (наприклад. color: var(--main-color);) .
+# https://developer.mozilla.org/ru/docs/Web/CSS/Using_CSS_custom_properties
+# «A8» Код написан следуя руководству. https://codeguide.co/
+
+
+# Заголовки скрити можна за допомогою паттерну visually-hidden. Для цього таким заголовкам треба додати клас  visually-hidden та додати до файлу стилів ось таке правило
+# .visually-hidden {
+#   position: absolute;
+#     white-space: nowrap;
+#     width: 1px;
+#     height: 1px;
+#     overflow: hidden;
+#     border: 0;
+#     padding: 0;
+#     clip: rect(0 0 0 0);
+#     clip-path: inset(50%);
+#     margin: -1px;
+# }
+ */
+
+/* Bg */
+
+/* 
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+background: #C4C4C4;
+ */
+
+
+
+
+/* Img Overlay */
+
+/* 
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+background: rgba(47, 48, 58, 0.4); */
