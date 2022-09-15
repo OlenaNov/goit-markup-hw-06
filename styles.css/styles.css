@@ -819,6 +819,10 @@ color: var(--color-title);
     margin-bottom: 10px;
 }
 
+.label:nth-child(5) {
+    margin-bottom: 20px;
+}
+
 .text-form {
     display: block;
     margin-bottom: 4px;
@@ -896,7 +900,6 @@ color: var(--color-title);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
     margin-bottom: 30px;
 
 
